@@ -1,0 +1,198 @@
+ /*通用*/
+body {
+font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei
+UI", "Microsoft YaHei", SimHei, "\5B8B\4F53", simsun, sans-serif;
+}
+/*-----*/
+  #myCarousel{
+    margin-top:50px;
+  }
+  #navbar-collapse ul{
+    margin-top:0;
+  }
+  /*轮播图居中*/
+  .carousel-inner img{
+   margin:0 auto;
+  }
+/*  .carousel-control{
+    font-size: 100px;
+  }*/
+/*首页内容*/
+.tab1{
+  margin:30px 0;
+  color: #666;
+}
+.tab-h2{
+  font-size: 20px;
+  color: #0059B2;
+  text-align: center;
+  letter-spacing: 1px;
+}
+.tab-p{
+  font-size: 15px;
+  color: #999;
+  text-align: center;
+  letter-spacing: 1px;
+  margin: 20px 0 40px 0;
+}
+
+.tab1 .text-muted{
+  color:#999;
+  text-decoration: line-through;; 
+}
+.tab1 .media-heading{
+  margin: 5px 0 10px 0;
+}
+.tab1 .col {
+padding: 20px;
+ 
+ 
+}
+.media-body p{ font-size: 14px; }
+
+
+
+.address h5{ font-size: 18px;}
+.contact { padding: 3em 0px; }
+.contact-top { text-align: center; }
+.contact-bottom { margin-top: 4%; }
+.contact-bottom iframe { width: 100%; height: 400px; }
+.contact-text { margin-top: 4%; }
+.contact-left input[type="text"] { margin-bottom: 10px; width: 32.51%; margin: 0px; color: #333; background: none; padding: 15px 10px; outline: none; border: 1px solid #333; margin-bottom: 10px; }
+.contact-left textarea { width: 88%; color: #333; resize: none; background: none; height: 12.7em; padding: 15px; outline: none; border: 1px solid #333; margin-top: 1.4%; }
+.submit-btn input[type=submit] { color: #fff; padding: 9px 42px; font-size: 15px; cursor: pointer; font-weight: 500; margin: 20px 0 0 0px; border: 3px solid #F66C54; background: #F66C54; outline: none; }
+.submit-btn input[type=submit]:hover, .reply input[type="submit"]:hover { background: transparent; color: #F66C54; transition: 0.5s all; -webkit-transition: 0.5s all; -moz-transition: 0.5s all; -ms-transition: 0.5s all; -o-transition: 0.5s all; }
+
+.contact-text{  margin-bottom: 30px;}
+.contact-left input[type="text"]{ width: 100%;}
+.contact-left textarea{ width: 100%;}
+.submit-btn input[type=submit]{ width: 100%;}
+
+/*移动端优先*/
+
+/* 小屏幕（平板，大于等于 768px） */
+@media (min-width: 768px) {
+ 
+
+  
+.tab-h2 {
+font-size: 26px;
+}
+.tab-p {
+font-size: 16px;
+}
+}
+/* 中等屏幕（桌面显示器，大于等于 992px） */
+@media (min-width: 992px) {
+ 
+.tab-h2 {
+font-size: 28px;
+}
+.tab-p {
+font-size: 17px;
+}
+}
+/* 大屏幕（大桌面显示器，大于等于 1200px） */
+@media (min-width: 1200px) {
+  .contact-left input[type="text"]{ width: 50%;}
+  .contact-left textarea{ width: 88%;}
+  .submit-btn input[type=submit]{width: auto;}
+.tab-h2 {
+font-size: 30px;
+}
+.tab-p {
+font-size: 18px;
+}
+
+}
+
+
+.tab2 {
+
+padding: 60px 20px;
+text-align: center;
+}
+.tab2 img {
+ margin-top: 30px;
+ 
+}
+.tab3 {
+padding: 40px 0;
+text-align: center;
+}
+.tab3 img {
+  margin-top: 30px;
+ 
+}
+.text h3 {
+font-size: 20px;
+text-align: left;
+}
+.text p {
+font-size: 14px;
+line-height:36px;
+text-align: left
+;
+}
+
+
+
+
+
+
+/* 小屏幕（平板，大于等于 768px） */
+@media (min-width: 768px) {
+
+.text h3 {
+font-size: 22px;
+}
+.text p {
+font-size: 15px;
+}
+.tab2-text {
+float: left;
+}
+.tab2-img {
+float: right;
+}
+
+}
+/* 中等屏幕（桌面显示器，大于等于 992px） */
+@media (min-width: 992px) {
+.text h3 {
+font-size: 24px;
+}
+.text p {
+font-size: 16px;
+}
+.tab2-text {
+float: left;
+}
+.tab2-img {
+float: right;
+}
+}
+/* 大屏幕（大桌面显示器，大于等于 1200px） */
+@media (min-width: 1200px) {
+.text h2 {
+font-size: 26px;
+}
+.text p {
+font-size: 18px;
+}
+.tab2-text {
+float: left;
+}
+.tab2-img {
+float: right;
+}
+}
+
+
+/*底部*/
+#footer {
+padding: 20px;
+text-align: center;
+background-color: #eee;
+border-top: 1px solid #ccc;
+}
